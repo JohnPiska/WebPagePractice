@@ -1,6 +1,11 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif; 
+    min-height: 100vh;
+}
+
+.page{
+    min-height: 100vh;
 }
 
 .part1{
@@ -19,8 +24,8 @@ body{
 .hero{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 64px 180px;
+    justify-content: center;
+    padding: 64px 200px;
     gap: 40px;
 }
 
@@ -43,7 +48,7 @@ body{
 }
 
 .hero img{
-    height:250px;
+    max-height:300px;
     width: auto;
     border-radius: 12px;
 }
@@ -54,6 +59,72 @@ body{
     padding: 8px 12px;
     margin-top: 16px;
     border: 0;
+}
+
+.part2{
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+.info-header{
+    color: black;
+    padding-bottom: 24px;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-cards img{
+    max-width: 180px;
+    min-height: auto;
+    border-radius: 12px;
+    border-color: #e0e0e0;
+}
+
+.card{
+    text-align: center;
+    color: #333333;
+    width: 200px;
+}
+
+.part3{
+    background-color: #f5f5f5;
+    
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 80px;
+    gap: 10px;
+}
+
+.review-text{
+    color: #333333;
+    font-size: 32px;
+    text-align: start;
+    font-style: italic;
+}
+
+.review-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reviewer-name{
+    font-weight: 800;
+    font-size: 16px;
+    text-align: end;
 }
 
 ul{
@@ -68,11 +139,11 @@ a{
     font-size: 16px;
 }
 
-.part2{
+.footer{
+    background-color: #0a2f5c;
+    color: white;
     display: flex;
     justify-content: center;
-}
-
-.info-header{
-    color: #333333;
+    align-items: center;
+    padding: 8px;
 }
