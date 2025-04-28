@@ -103,7 +103,7 @@ body{
 .review{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 800px;
     margin: 40px auto;
     padding: 80px;
     gap: 10px;
