@@ -104,7 +104,7 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    margin: 40px auto;
+    /* margin: 40px auto; */
     padding: 80px;
     gap: 10px;
 }
@@ -125,6 +125,36 @@ body{
     font-weight: 800;
     font-size: 16px;
     text-align: end;
+}
+
+.part4{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.message{
+    background-color: #3366ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+    border-radius: 16px;
+    padding: 36px 80px;
+    min-width: 500px;
+}
+
+.message-text{
+    color: white;
+}
+
+.message-button button{
+    color: white;
+    background-color: #3366ff;
+    border-color: white;
+    border-radius: 12px;
+    padding: 8px;
 }
 
 ul{
